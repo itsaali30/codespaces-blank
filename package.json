@@ -3,19 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "deploy": "gh-pages -d public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "homepage": "https://itsaali30.github.io/codespaces-blank",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.7",
     "express": "^4.21.1",
     "gh-pages": "^6.2.0",
     "serverless-http": "^3.2.0",
     "socket.io": "^4.8.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
