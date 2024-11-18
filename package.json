@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+   "deploy": "gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://itsaali30.github.io/codespaces-blank",
   "keywords": [],
   "author": "",
   "license": "ISC",
